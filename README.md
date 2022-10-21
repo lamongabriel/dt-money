@@ -38,13 +38,14 @@ git clone https://github.com/lamongabriel/rocketseat-ignite-dt-money.git
 cd /rocketseat-ignite-dt-money/
 npm install
 npm start
-
 ```
 
 ## ☕ Usage <DT_MONEY>
 
 ```
-Click on create new button and after you fill every field, you need to select if this transaction is an income or an outcome, then you can add this transaction to the list. You can edit or delete every single transaction. The summary on top helps you better manage your finances.
+Click on create new button and after you fill every field,you need to select if this transaction is an income or an outcome.
+Then you can add this transaction to the list. You can edit or delete every single transaction.
+The summary on top helps you better manage your finances.
 ```
 
 ## 💡 Technologies
