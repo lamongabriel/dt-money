@@ -19,6 +19,11 @@ export const Content = styled.div`
     display: flex;
     align-items: center;
     gap: 1rem;
+
+    
+    @media (max-width: 440px) {
+      flex-direction: column;;
+    }
   }
 
   button{
@@ -41,5 +46,14 @@ export const Content = styled.div`
       align-items: center;
       overflow: hidden;
     }
+
+    @media (max-width: 440px) {
+      height: 2.5rem;
+      padding: 0 1.5rem;
+      width: 100%;
+      text-align: center;
+      justify-content: center;
+    }
+
   }
 `

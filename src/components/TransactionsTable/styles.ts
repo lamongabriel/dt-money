@@ -18,7 +18,7 @@ export const Container = styled.div`
     tr{
       background-color: var(--primary-shape-color);
       &:hover{
-        background-color: #eee;
+        background-color: var(--hover-color);
       }
     }
 
@@ -48,6 +48,13 @@ export const Container = styled.div`
         gap: 0.3rem;
       }
     }
+
+    @media(max-width: 700px){
+      display: block;
+      overflow-x: auto;
+      white-space: nowrap;
+    }
+
   }
 `
 

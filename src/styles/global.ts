@@ -50,6 +50,7 @@ export const LightTheme = createGlobalStyle`
     --primary-shape-color: #FFFFFF;
     --input-background-color: #E7E9EE;
     --input-border-color: #D7D7D7;
+    --hover-color: #eee;
 
     --primary-red-color: #E52E4D;
 
@@ -68,6 +69,7 @@ export const DarkTheme = createGlobalStyle`
     --text-button-color: #ffffff;
     --primary-shape-color: #202024;
     --input-background-color: #202024;
+    --hover-color: #555;
 
     --primary-red-color: #E52E4D;
 

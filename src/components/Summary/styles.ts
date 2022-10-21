@@ -5,6 +5,11 @@ export const Container = styled.div`
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
   margin-top: -7rem;
+
+  @media(max-width: 700px){
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
 `
 
 interface ContainerItemProps {
