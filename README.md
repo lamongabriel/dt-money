@@ -20,6 +20,12 @@ This project is fully developed and properly working but it could have some chan
 - [ ] Better mobile layout
 - [ ] Fully developed back-end (currently using MirageJS)
 
+## ✨ Live Project
+
+The project is live and working! You can check it out here:
+
+[https://lamongabriel-dtmoney.netlify.app/](https://lamongabriel-dtmoney.netlify.app/)
+
 ## 💻 Prerequisites
 
 Before going on, make sure you have the most recent versions of the following packages:
@@ -39,6 +45,8 @@ cd /rocketseat-ignite-dt-money/
 npm install
 npm start
 ```
+
+You also need to change the api route to your localhost port go to `/services/api.ts` and change `/baseURL: 'https://lamongabriel-dtmoney.netlify.app/api'` to your local adress, the default one is `http://localhost:3000/api`
 
 ## ☕ Usage <DT_MONEY>
 
