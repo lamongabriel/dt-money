@@ -46,7 +46,12 @@ npm install
 npm start
 ```
 
-You also need to change the api route to your localhost port go to `/services/api.ts` and change `/baseURL: 'https://lamongabriel-dtmoney.netlify.app/api'` to your local adress, the default one is `http://localhost:3000/api`
+Set and environment variable called REACT_APP_API_URL referencing the API url in a ```.env``` file.
+
+```bash
+$ REACT_APP_API_URL=http://localhost:3000/api
+```
+
 
 ## ☕ Usage <DT_MONEY>
 
