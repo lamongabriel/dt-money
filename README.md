@@ -24,7 +24,7 @@ This project is fully developed and properly working but it could have some chan
 
 The project is live and working! You can check it out here:
 
-[https://lamongabriel-dtmoney.netlify.app/](https://lamongabriel-dtmoney.netlify.app/)
+[https://lamongabriel-dtmoney.vercel.app/](https://lamongabriel-dtmoney.vercel.app/)
 
 ## 💻 Prerequisites
 
