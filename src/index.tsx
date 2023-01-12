@@ -5,6 +5,9 @@ import { App } from './App';
 import { createServer, Model } from 'miragejs';
 import { Transaction } from './hooks/useTransactions';
 
+const localStoreItems = localStorage.getItem('dtmoney@transactions')
+const data = localStoreItems ? JSON.parse(localStoreItems) : []
+
 createServer({
 
   models: {
@@ -13,24 +16,7 @@ createServer({
 
   seeds(server) {
     server.db.loadData({
-      transactions: [
-        {
-          id: 1,
-          name: 'Website building freelance',
-          type: 'income',
-          category: 'Dev',
-          price: 6000,
-          createdAt: new Date()
-        },
-        {
-          id: 2,
-          name: 'Mortgage',
-          type: 'outcome',
-          category: 'Home expenses',
-          price: 1000,
-          createdAt: new Date()
-        },
-      ]
+      transactions: data
     })
   },
 

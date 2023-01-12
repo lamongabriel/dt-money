@@ -34,6 +34,10 @@ export function TransactionsProvider({children}: TransactionsProviderProps){
     api.get('transactions').then(response => setTransactions(response.data.transactions))
   }, [])
 
+  useEffect(() => {
+    localStorage.setItem('dtmoney@transactions', JSON.stringify(transactions))
+  }, [transactions])
+
   async function createTransaction(transaction: TransactionInput){
     const response = await api.post('/transactions', {...transaction, createdAt: new Date()})
     const { transaction: transactionResponse } = response.data
